@@ -2,8 +2,9 @@
 
 int main()
 {
-	char ans[5], str[5]; int a = 0, b = 0;
-	scanf("%s", &ans);
+	char str[5]; int a = 0, b = 0;
+	char ans[4]=[1,2,3,4];
+	//scanf("%s", &ans);
 	while (a != 4) {
 		a = 0; b = 0;
 		scanf("%s", &str);
@@ -22,5 +23,4 @@ int main()
 	}
 	while (a != 0) scanf("%d", &a);
 }
-
 
