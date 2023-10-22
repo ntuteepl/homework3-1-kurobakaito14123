@@ -21,6 +21,6 @@ int main()
 		printf("%dA%dB", a, b);
 	}
 	do scanf("%s", str);
-	while (ans[0]&0xf != 0) scanf("%s", str);
+	while (str[0]&0xf != 0) scanf("%s", str);
 }
 
