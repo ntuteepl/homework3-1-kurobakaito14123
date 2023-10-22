@@ -18,7 +18,7 @@ int main()
 				}
 			}
 		}
-		printf("%dA%dB\n", a, b);
+		printf("%dA%dB", a, b);
 	}
 	do scanf("%d", &a);
 	while (a != 0) scanf("%d", &a);
