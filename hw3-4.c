@@ -20,6 +20,7 @@ int main()
 		}
 		printf("%dA%dB", a, b);
 	}
-	while (str[0]&0xf != 0) { scanf("%s", str); }
+	do scanf("%s", str);
+	while (str[0]&0xf != 0);
 }
 
