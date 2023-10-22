@@ -2,8 +2,8 @@
 
 int main()
 {
-	char ans[4],str[5]; int a = 0, b = 0;
-	scanf("%s", &ans);
+	char ans[5],str[5]; int a = 0, b = 0;
+	gets(ans);
 	while (a != 4) {
 		a = 0; b = 0;
 		gets(str);
