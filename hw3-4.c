@@ -20,6 +20,7 @@ int main()
 		}
 		printf("%dA%dB\n", a, b);
 	}
-	while (ans[0] != '0') scanf("%c", &ans[0]);
+	do scanf("%d", &a);
+	while (a != 0) scanf("%d", &a);
 }
 
