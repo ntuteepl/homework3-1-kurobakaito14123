@@ -20,7 +20,7 @@ int main()
 		}
 		printf("%dA%dB", a, b);
 	}
-	scanf("%s", str);
+	do scanf("%s", str);
 	while (ans[0]&0xf != 0) scanf("%s", str);
 }
 
