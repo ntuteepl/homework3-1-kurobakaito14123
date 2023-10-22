@@ -3,10 +3,10 @@
 int main()
 {
 	char ans[5],str[5]; int a = 0, b = 0;
-	gets(ans);
+	scanf("%s", ans);
 	while (a != 4) {
 		a = 0; b = 0;
-		gets(str);
+		scanf("%s", str);
 		for (int i = 0; i < 4; i++)
 		{
 			for (int j = 0; j < 4; j++)
@@ -20,7 +20,7 @@ int main()
 		}
 		printf("%dA%dB", a, b);
 	}
-	do gets(str);
-	while (ans[0]&0xf != 0) gets(str);
+	scanf("%s", str);
+	while (ans[0]&0xf != 0) scanf("%s", str);
 }
 
