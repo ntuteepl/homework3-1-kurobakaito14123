@@ -22,5 +22,6 @@ int main()
 	}
 	do scanf("%s", str);
 	while (str[0] != '0');
+	scanf("%s", str);
 }
 
