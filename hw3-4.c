@@ -7,6 +7,7 @@ int main()
 	while (a != 4) {
 		a = 0; b = 0;
 		scanf("%s", str);
+		if(str[0] == '0') break;
 		for (int i = 0; i < 4; i++)
 		{
 			for (int j = 0; j < 4; j++)
@@ -20,7 +21,6 @@ int main()
 		}
 		printf("%dA%dB\n", a, b);
 	}
-	do { scanf("%d", &a); }
-	while (a != 0);
+	while (a != 0 || str[0] != '0') scanf("%d", &a);
 }
 
